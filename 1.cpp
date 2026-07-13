@@ -1,4 +1,4 @@
-// Template 1 - in Cpp
+// Template 1 - display in Cpp
 #include<iostream>
 using namespace std;
 template <class T>
