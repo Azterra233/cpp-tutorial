@@ -3,12 +3,12 @@
 using namespace std;
 template <typename T> //basic thing for a template
 void squarenum(T num){
-    cout<<"Square of number  = "<<num*num<<endl;
+    cout<<"Square of number = "<<num*num<<endl;
 } 
 int main(){
-    int num;
+    double num;
     cout<<"Enter a number: ";
     cin>>num;
-    
-
+    squarenum(num);
+    return 0;
 }
